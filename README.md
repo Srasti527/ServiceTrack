@@ -14,15 +14,6 @@ The project is divided into two main folders:
 *   `/frontend` - Contains the React.js client application. 
 *   `/backend` - Contains the Node.js/Express server and REST API.
 
-## ⚙️ Environment Variables
-
-Create a `.env` file in the `backend/` directory with the following keys:
-
-```ini
-PORT=5000
-MONGODB_URI=mongodb://127.0.0.1:27017/servicetrack
-JWT_SECRET=your_super_secret_jwt_key
-```
 
 ## 🛠️ How to Run Locally
 

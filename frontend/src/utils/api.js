@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api', // Adjust in production
+  baseURL: 'https://servicetrack-crfm.onrender.com/', // Adjust in production
 });
 
 // Add a request interceptor to attach JWT token
