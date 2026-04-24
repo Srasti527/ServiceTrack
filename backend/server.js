@@ -23,6 +23,10 @@ app.get("/", (req, res) => {
   res.send("ServiceTrack Backend is Running 🚀");
 });
 
+app.get("/", (req, res) => {
+  res.send("ServiceTrack Backend routes are Running 🚀");
+});
+
 // Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/services', serviceRoutes);
